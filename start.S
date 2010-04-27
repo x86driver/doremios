@@ -1,5 +1,6 @@
 .code16
 .text
+start:
 	mov %cs,%ax
 	mov %ax,%ds
 	mov %ax,%es

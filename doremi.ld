@@ -1,10 +1,7 @@
-ENTRY(_Reset) SECTIONS {
- . = 0x0;
- .text : {
- start.o
- *(.text)
- }
- .data : { *(.data) }
- .bss : { *(.bss) }
+ENTRY(start)
+SECTIONS {
+	. = 0x7c00;
+	.text : {
+		_ftext = .;
+	}
 }
-

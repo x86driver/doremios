@@ -1,0 +1,7 @@
+*.img
+*.o
+*.bin
+*.elf
+bochsout.txt
+parport.out
+
